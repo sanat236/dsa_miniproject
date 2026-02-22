@@ -1,8 +1,8 @@
+//Admin Controlled Banking System
 #include "mainwindow.h"
 #include "account.h"
 #include "transaction.h"
 #include "queue.h"
-
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     setWindowTitle("Banking System");
     setMinimumSize(800, 600);
